@@ -12,7 +12,8 @@ crdb_nodes = 3
 crdb_instance_type = "t4g.medium"
 crdb_store_volume_type = "gp3"
 crdb_store_volume_size = 8
-crdb_version = "24.2.4"
+#crdb_version = "24.2.4"
+crdb_version = "25.2.0-beta.3"
 crdb_arm_release = "yes"
 crdb_enable_spot_instances = "no"
 
