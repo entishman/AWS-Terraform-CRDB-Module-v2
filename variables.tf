@@ -170,7 +170,7 @@
     variable "crdb_root_volume_size" {
       description = "EBS Root Volume Size"
       type        = number
-      default     = 8
+      default     = 16
     }
 
     variable "crdb_store_volume_type" {
@@ -186,7 +186,7 @@
     variable "crdb_store_volume_size" {
       description = "EBS Root Volume Size"
       type        = number
-      default     = 8
+      default     = 16
     }
 
     variable "crdb_instance_key_name" {
